@@ -228,6 +228,7 @@ async function connectToWhatsApp() {
 			}
 		}
 	});
+	
 	const verificationCodes = {}; // Penyimpanan sementara untuk kode yang dihasilkan
 	const CODE_EXPIRATION_TIME = 5 * 60 * 1000; // 5 menit
 
