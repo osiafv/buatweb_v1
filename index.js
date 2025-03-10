@@ -380,7 +380,7 @@ async function connectToWhatsApp() {
 					sock.sendMessage(grubnya, { text: desc });
 				} else {
 					sock.sendMessage(grubnya, {
-						image: { url: `https://rkyglobal.web.id/public/img/${imagee}` },
+						image: { url: `https://rkyproject.my.id/public/img/${imagee}` },
 						caption: desc,
 					});
 				}
